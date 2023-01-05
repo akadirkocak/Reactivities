@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "M2rgBLEldtbowXuqvIY6Tu9kLHkMF35bDyZv+7RIIImZWFybxr03eYvRatrEKArcjkVm9dfv/OrL9BugzyxS8g==",
+  "dgSpecHash": "7L0xBk6ZfI8gcigK6EI614dx7FFHNjsTr3hexk8ejqsl4DqsnP2DDgqH7hYJVVcNxYoURqm9LYXcdzRPtbS+iQ==",
   "success": true,
   "projectFilePath": "/Users/abdulkadirkocak/ReactDemo/Reactivities/API/API.csproj",
   "expectedPackageFiles": [
@@ -16,7 +16,7 @@
     "/Users/abdulkadirkocak/.nuget/packages/microsoft.entityframeworkcore/7.0.1/microsoft.entityframeworkcore.7.0.1.nupkg.sha512",
     "/Users/abdulkadirkocak/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.1/microsoft.entityframeworkcore.abstractions.7.0.1.nupkg.sha512",
     "/Users/abdulkadirkocak/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.1/microsoft.entityframeworkcore.analyzers.7.0.1.nupkg.sha512",
-    "/Users/abdulkadirkocak/.nuget/packages/microsoft.entityframeworkcore.design/7.0.1/microsoft.entityframeworkcore.design.7.0.1.nupkg.sha512",
+    "/Users/abdulkadirkocak/.nuget/packages/microsoft.entityframeworkcore.design/7.0.0/microsoft.entityframeworkcore.design.7.0.0.nupkg.sha512",
     "/Users/abdulkadirkocak/.nuget/packages/microsoft.entityframeworkcore.relational/7.0.1/microsoft.entityframeworkcore.relational.7.0.1.nupkg.sha512",
     "/Users/abdulkadirkocak/.nuget/packages/microsoft.entityframeworkcore.sqlite/7.0.1/microsoft.entityframeworkcore.sqlite.7.0.1.nupkg.sha512",
     "/Users/abdulkadirkocak/.nuget/packages/microsoft.entityframeworkcore.sqlite.core/7.0.1/microsoft.entityframeworkcore.sqlite.core.7.0.1.nupkg.sha512",
