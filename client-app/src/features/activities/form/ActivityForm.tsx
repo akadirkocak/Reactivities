@@ -30,7 +30,7 @@ export default observer(function ActivityForm() {
 
     function handleSubmit() {
         if (!activity.id){
-            activity.id == uuid();
+            activity.id = uuid()
             createActivity(activity).then(()=> navigate(`/activities/${activity.id}`))
         }else{
             updateActivity(activity).then(()=> navigate(`/activities/${activity.id}`))
