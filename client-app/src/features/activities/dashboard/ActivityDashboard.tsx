@@ -7,15 +7,16 @@ import ActivityList from './ActivityList';
 
 export default observer(function ActivityDashboard() {
     const { activityStore } = useStore()
-
+    //const {loadActivities, activityRegistry} = activityStore()
+    const { loadActivities, activityRegistiry } = activityStore
     useEffect(() => {
-        activityStore.loadActivities();
-    }, [activityStore])
+        if (activityRegistiry.size <= 1) loadActivities();
+    }, [loadActivities])
 
     if (activityStore.loadingInitial) return <LoadingComponent content={'Loading app'} />
     return (
         <Grid>
-            <Grid.Column width='10'>
+            <Grid.Column width='10'> 
                 <ActivityList />
             </Grid.Column>
             <Grid.Column width='6'>
@@ -23,7 +24,7 @@ export default observer(function ActivityDashboard() {
                     <ActivityDetails />}
                 {editMode &&
                     <ActivityForm />} */}
-                    <h2>Activity filters</h2>
+                <h2>Activity filters</h2>
             </Grid.Column>
 
         </Grid>
